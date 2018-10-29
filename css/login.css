@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{list-style: none;}
+a{
+    color: #333;
+}
+a:hover{ 
+text-decoration:none; 
+color:#333; 
+}
+ 
+img{
+    width: 100%;
+    height: auto;
+}
+
+#nav{
+   height:80px;
+   background:transparent;
+   border: 0px solid;
+   z-index: 333;
+   transition: 0.5s;
+}
+#nav .container{
+    width: 1140px;
+    height: 90px;
+}
+.navbar-left{
+    width: 110px;
+    height: 30px;
+    margin-top: 10px;
+}
+.navbar-left a img{
+    width: 110px;
+    height: 30px;
+}
+.navbar-right{
+    width: 500px;
+    height: 90px;
+    line-height: 90px;
+}
+.navbar-right ul{
+    width: 370px;
+    height: 90px;
+    float: left;
+}
+.navbar-right ul li{
+    width: 184px;
+    height: 90px;
+    float: left;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+.navbar-right ul li a{
+    color: #BCBCBC;
+}
+.navbar-right ul li a:hover{
+    color:white;
+}
+#lobtn{
+    width: 100px;
+    height: 37px;
+    display: inline-block;
+    font-weight: bold;
+}
+#head{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/login-bg.png)no-repeat;
+    background-position: 50% 0px;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+}
+#zhe{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+    position: absolute;
+}
+.container{
+    width: 50%;
+    z-index: 333;
+}
+.container .row .col-md-6{
+    margin-top: 300px;
+}
+
